@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Drive Social Link Launcher",
+  "version": "2",
+  "description": "Extracts business-related links from a webpage and opens them in new tabs.",
+  "permissions": ["activeTab", "tabs", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": "icon48.png",
+    "default_title": "Launch Business Links"
+  }
+}
