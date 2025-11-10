@@ -4,6 +4,7 @@
   "version": "2",
   "description": "Extracts business-related links from a webpage and opens them in new tabs.",
   "permissions": ["activeTab", "tabs", "scripting", "storage"],
+  "host_permissions": ["https://www.facebook.com/*"],
   "background": {
     "service_worker": "background.js"
   },
